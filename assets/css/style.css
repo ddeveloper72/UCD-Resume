@@ -36,9 +36,8 @@
 }
 
 .bg-color-contact {
-    background-color: #ffffff;
+    background-color: #ffffff; /* White */
 }
-
 /*----------------------------------------------------Special Paddings/Margins/Text-*/
 
 h1,h2,h3,h4 {
@@ -182,6 +181,18 @@ footer .cv-pdf i:hover {
     padding-bottom: 15px;
 }
 
+.fa-facebook {
+    background: #4C70BA;
+}
+
+.fa-twitter {
+    background: #73B4FF;
+}
+
+.fa-linkedin {
+    background: #006097;
+}
+
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -191,7 +202,7 @@ footer .cv-pdf i:hover {
     font-size: 13px;
     line-height: 7px;
     color: #fafafa;
-    background: #8f8f8f;
+    /*background: #8f8f8f;*/
     transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
