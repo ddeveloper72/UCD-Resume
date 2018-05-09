@@ -38,6 +38,47 @@
 .bg-color-contact {
     background-color: #ffffff; /* White */
 }
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #d9a81d;
+}
+
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
 /*----------------------------------------------------Special Paddings/Margins/Text-*/
 
 h1,h2,h3,h4 {
@@ -112,6 +153,10 @@ header {
 }
 #nav {
     margin: 0;
+}
+
+#nav li {
+    padding: 0;
 }
 
 .menu-item {
@@ -228,8 +273,7 @@ footer .cv-pdf i:hover {
 }
 
 .three-reasons-heading {
-    margin: 0;
-    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /*----------------------------------------------------Personal info-*/
@@ -335,6 +379,7 @@ footer .cv-pdf i:hover {
 
 .history-heading {
     color: #fafafa;
+    margin-bottom: 50px;
 }
 
 .history-items {
@@ -362,6 +407,11 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
+}
+
+/*----------------------------------------------------Map*/
+div#map {
+    min-height: 360px;
 }
 
 /*----------------------------------------------------Media-Queries-*/
