@@ -28,7 +28,7 @@
                 <div class="row bg-color-name-title">
                     <div class="heading">
                         <h1 class="name">Duncan Falconer</h1>
-                        <h2 class="title">Full Stack Developer</h2>
+                        <h2 class="title">Full Stack Web Developer</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -60,12 +60,13 @@
     <div class="row bg-color-contact">
         <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
         <h5 class="uppercase text-center">Lets work together</h5>    </div>
+        
     <div class="center-form">
-        <form onsubmit="return sendMail(this);" method="POST">
+        <form id="contactForm" onsubmit="return sendMail(this);" method="POST">
             <input type="text" name="name" class="form-control" id="fullname" autocomplete="name" placeholder="Name" required/>
             <input type="text" name="emailaddress" class="form-control" id="emailaddress" autocomplete="email" placeholder="Email" required/>
             <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-            <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+            <button id="submit" type="submit" class="btn btn-secondary center-block">Send Project Request</button>
         </form>
     </div>
     </section>

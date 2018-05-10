@@ -1,0 +1,3 @@
+
+ErrorDocument 404 http://ddeveloper72/github.io/UCD-Resume/404page.html
+ErrorDocument 405 http://ddeveloper72/github.io/UCD-Resume/405page.html
